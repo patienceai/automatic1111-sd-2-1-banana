@@ -31,6 +31,12 @@ async def inference(request: Request):
         endpoint = 'txt2img'
         params = model_input
 
+    if endpoint == 'txt2img' or endpoint == 'img2img':
+        if 'width' not in params:
+            params['width'] = 768
+        if 'height' not in params:
+            params['height'] = 768
+
     if endpoint == 'txt2img':
         if 'num_inference_steps' in params:
             params['steps'] = params['num_inference_steps']
