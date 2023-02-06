@@ -1,5 +1,5 @@
 {
-  "name": "AUTOMATIC1111 - Stable Diffusion 1.5",
+  "name": "AUTOMATIC1111 - Stable Diffusion 2.1",
   "category": "Computer Vision",
   "example_input": {
     "endpoint": "txt2img",
@@ -12,8 +12,8 @@
       "seed": 42,
       "batch_size": 1,
       "n_iter": 1,
-      "width": 512,
-      "height": 512,
+      "width": 768,
+      "height": 768,
       "tiling": false
     }
   },
