@@ -13,7 +13,7 @@ This deployment provides an API only and does not include the WebUI's user inter
 
 ## Instant Deploy
 
-[See how to deploy in seconds](https://app.banana.dev/templates/patienceai/stable-diffusion-1.5-automatic1111).
+[See how to deploy in seconds](https://app.banana.dev/templates/patienceai/automatic1111-sd-2-1-banana).
 
 ## Model Inputs
 
