@@ -17,35 +17,7 @@ This deployment provides an API only and does not include the WebUI's user inter
 
 ## Model Inputs
 
-### Compatibility with other Banana 1-click deployments
-
-For txt2img generation of a single image, you can use the same input format as other Banana deployments:
-
-```
-{
-  "prompt": "an astronaut riding a (horse:motorcycle:0.5) on the moon",
-  "negative_prompt": "cartoonish, low quality",
-  "num_inference_steps": 25,
-  "guidance_scale": 7.5,
-  "seed": 42,
-  "width": 512,
-  "height": 512
-}
-```
-
-(Only `prompt` is required.)
-
-Output:
-
-```
-{
-  "image_base64": "<BASE64_STRING>"
-}
-```
-
-### Advanced txt2img example
-
-For more control and direct access to the AUTOMATIC1111 API, use this alternative format:
+### txt2img example
 
 ```
 {
