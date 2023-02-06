@@ -13,8 +13,7 @@ RUN git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git && \
     git checkout 3e0f9a75438fa815429b5530261bcf7d80f3f101
 WORKDIR /app/stable-diffusion-webui
 
-#RUN wget -O models/Stable-diffusion/model.safetensors 'https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.safetensors'
-RUN wget -O models/Stable-diffusion/model.ckpt 'https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt'
+RUN wget -O models/Stable-diffusion/model.ckpt 'https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt'
 RUN echo 1
 ADD prepare.py .
 RUN python prepare.py --skip-torch-cuda-test --xformers --reinstall-torch --reinstall-xformers
@@ -29,4 +28,4 @@ ADD script.py extensions/banana/scripts/banana.py
 ADD app.py app.py
 ADD server.py server.py
 
-CMD ["python", "server.py", "--xformers", "--disable-safe-unpickle", "--lowram", "--no-half", "--no-hashing", "--listen", "--port", "8000"]
+CMD ["python", "server.py", "--xformers", "--disable-safe-unpickle", "--lowram", "--no-hashing", "--listen", "--port", "8000"]
