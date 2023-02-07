@@ -1,7 +1,7 @@
 
 # 🍌 Stable Diffusion WebUI for banana (Stable Diffusion 2.1)
 
-Deploy an API for AUTOMATIC1111's [Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) to generate images with **Stable Diffusion 2.1**. Access txt2img, img2img and interrogation in one deployment!
+Deploy an API for AUTOMATIC1111's [Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) to generate images with **Stable Diffusion 2.1**.
 
 Supports features not available in other Stable Diffusion templates, such as:
 
