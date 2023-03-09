@@ -11,6 +11,8 @@ Supports features not available in other Stable Diffusion templates, such as:
 
 This deployment provides an API only and does not include the WebUI's user interface. Please report any issues you encounter.
 
+<a href="https://www.buymeacoffee.com/cogentdev" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 145px !important;" ></a>
+
 ## Instant Deploy
 
 [See how to deploy in seconds](https://app.banana.dev/templates/patienceai/automatic1111-sd-2-1-banana).
