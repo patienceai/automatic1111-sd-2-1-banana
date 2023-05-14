@@ -14,7 +14,7 @@
       "n_iter": 1,
       "width": 768,
       "height": 768,
-      "tiling": false
+      "tiling": False
     }
   },
   "example_output": {
